@@ -13,6 +13,7 @@ module.exports = {
   plugins: ["prettier", "@typescript-eslint"],
   rules: {
     "@typescript-eslint/no-unused-vars": ["warn"], // 사용 안한 변수 warn
+    "@typescript-eslint/no-explicit-any": "off", // any 허용
     "prettier/prettier": [
       "error",
       {

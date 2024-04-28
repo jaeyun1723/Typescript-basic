@@ -1,5 +1,5 @@
 // 함수의 파라미터에 타입을 정의하는 방식
-function sum(a: number, b: number) {
+function sum(a: number, b: number): void {
   console.log(a + b);
 }
 

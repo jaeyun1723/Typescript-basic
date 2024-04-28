@@ -3,6 +3,8 @@ const num: number = 10;
 const arr: Array<number> = [1, 2, 3];
 const heros: Array<string> = ["Capt", "Thor", "Hulk"];
 const items: number[] = [1, 2, 3];
+let names: string | number;
+const age: any = 10;
 
 // TS 튜플
 const address: [string, number] = ["ga", 100];
